@@ -22,8 +22,8 @@ class Asynchronous extends StatelessWidget {
         Footnotes(
           notes: [
             Footnote(
-              text: 'Flutter',
-              url: 'https://flutter.dev',
+              text: 'Asynchronous programming in Dart',
+              url: 'https://dart.dev/codelabs/async-await',
             ),
           ],
         ),

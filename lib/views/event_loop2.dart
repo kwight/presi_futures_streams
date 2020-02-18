@@ -19,8 +19,8 @@ class EventLoop2 extends StatelessWidget {
         Footnotes(
           notes: [
             Footnote(
-              text: 'Dart language tour',
-              url: 'https://dart.dev/guides/language/language-tour',
+              text: 'Isolates and Event Loops - Flutter in Focus',
+              url: 'https://www.youtube.com/watch?v=vl_AaCgudcY',
             ),
           ],
         ),

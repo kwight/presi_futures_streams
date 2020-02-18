@@ -10,7 +10,7 @@ class EventLoop extends StatelessWidget {
       heading: 'The Event Loop',
       body: <Widget>[
         Text(
-            'The Event Loop process all events from the Event Queue, one at a time, until finished.'),
+            'The Event Loop processes all events from the Event Queue, one at a time, until finished.'),
         Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: <Widget>[
@@ -25,8 +25,9 @@ class EventLoop extends StatelessWidget {
         Footnotes(
           notes: [
             Footnote(
-              text: 'AOT and JIT',
-              url: 'https://dart.dev/platforms',
+              text: 'Didier Boelens article',
+              url:
+                  'https://www.didierboelens.com/2019/01/futures---isolates---event-loop/',
             ),
           ],
         ),

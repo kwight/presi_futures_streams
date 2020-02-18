@@ -3,7 +3,7 @@ import '../widgets/slide.dart';
 import '../widgets/footnote.dart';
 import '../widgets/footnotes.dart';
 
-class Recap extends StatelessWidget {
+class Recap2 extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Slide(
@@ -13,26 +13,26 @@ class Recap extends StatelessWidget {
         Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: <Widget>[
-            Text('• Dart has Futures and Streams for async events.'),
-            Text('• Futures happen once, Streams can be continous.'),
-            Text('• Futures and Streams are processed by the Event Loop.'),
+            Text('• Use `async` and `await` for synchronous-style code.'),
+            Text('• Flutter provides `FutureBuilder` and `StreamBuilder`.'),
+            Text('• Remember to check connection state in the builder.'),
           ],
         ),
         Footnotes(
           notes: [
             Footnote(
-              text: 'Dart Futures - Flutter in Focus',
-              url: 'https://www.youtube.com/watch?v=OTS-ap9_aXc',
+              text: 'Dart asynchronous programming',
+              url: 'https://dart.dev/codelabs/async-await',
             ),
             Footnote(
-              text: 'Dart Streams - Flutter in Focus',
-              url: 'https://www.youtube.com/watch?v=nQBpOIHE4eE',
+              text: 'Using Firestore as a backend to your Flutter app',
+              url: 'https://www.youtube.com/watch?v=DqJ_KjFzL9I',
             ),
           ],
         ),
       ],
-      leftRoute: '/12',
-      rightRoute: '/14',
+      leftRoute: '/13',
+      rightRoute: '/15',
     );
   }
 }

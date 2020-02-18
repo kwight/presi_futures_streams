@@ -9,8 +9,7 @@ class EventLoop3 extends StatelessWidget {
     return Slide(
       heading: 'The Event Loop',
       body: <Widget>[
-        Text(
-            'Understanding the execution order of Dart code is important to predict\nexecution and avoid confusion. This is the general sequence and rules:'),
+        Text('This is the general execution order in Dart:'),
         Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: <Widget>[
@@ -24,13 +23,9 @@ class EventLoop3 extends StatelessWidget {
         Footnotes(
           notes: [
             Footnote(
-              text: 'Accessibility and internationalization',
+              text: 'Didier Boelens article',
               url:
-                  'https://flutter.dev/docs/development/accessibility-and-localization',
-            ),
-            Footnote(
-              text: 'Testing',
-              url: 'https://flutter.dev/docs/testing',
+                  'https://www.didierboelens.com/2019/01/futures---isolates---event-loop/',
             ),
           ],
         ),

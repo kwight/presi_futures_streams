@@ -3,7 +3,7 @@ import '../widgets/slide.dart';
 import '../widgets/footnote.dart';
 import '../widgets/footnotes.dart';
 
-class WorkingWithFlutter4 extends StatelessWidget {
+class FutureBuilders extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Slide(
@@ -23,18 +23,15 @@ class WorkingWithFlutter4 extends StatelessWidget {
         Footnotes(
           notes: [
             Footnote(
-              text: 'Material design',
-              url: 'https://flutter.dev/docs/development/ui/widgets/material',
-            ),
-            Footnote(
-              text: 'Cupertino widgets for HIG',
-              url: 'https://flutter.dev/docs/development/ui/widgets/cupertino',
+              text: 'FutureBuilder class',
+              url:
+                  'https://api.flutter.dev/flutter/widgets/FutureBuilder-class.html',
             ),
           ],
         ),
       ],
-      leftRoute: '/8',
-      rightRoute: '/10',
+      leftRoute: '/9',
+      rightRoute: '/11',
     );
   }
 }

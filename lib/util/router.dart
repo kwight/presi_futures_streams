@@ -10,10 +10,11 @@ import '../views/futures.dart';
 import '../views/futures2.dart';
 import '../views/futures3.dart';
 import '../views/async_await.dart';
-import '../views/working_with_flutter4.dart';
-import '../views/state.dart';
-import '../views/flutter_firebase.dart';
+import '../views/futurebuilder.dart';
+import '../views/streams.dart';
+import '../views/streambuilder.dart';
 import '../views/recap.dart';
+import '../views/recap2.dart';
 import '../views/thank_you.dart';
 
 Route router(RouteSettings settings) {
@@ -36,15 +37,17 @@ Route router(RouteSettings settings) {
       return FadeRoute(page: Futures3());
     case '/9':
       return FadeRoute(page: AsyncAwait());
-    case '/9':
-      return FadeRoute(page: WorkingWithFlutter4());
+    case '/10':
+      return FadeRoute(page: FutureBuilders());
     case '/11':
-      return FadeRoute(page: AppState());
+      return FadeRoute(page: Streams());
     case '/12':
-      return FadeRoute(page: FlutterFirebase());
+      return FadeRoute(page: StreamBuilders());
     case '/13':
       return FadeRoute(page: Recap());
     case '/14':
+      return FadeRoute(page: Recap2());
+    case '/15':
       return FadeRoute(page: ThankYou());
     case '/':
     default:

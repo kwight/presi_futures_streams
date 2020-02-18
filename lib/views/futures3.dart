@@ -22,8 +22,8 @@ class Futures3 extends StatelessWidget {
         Footnotes(
           notes: [
             Footnote(
-              text: 'Desktop progress',
-              url: 'https://github.com/flutter/flutter/wiki/Desktop-shells',
+              text: 'Futures and Error Handling',
+              url: 'https://dart.dev/guides/libraries/futures-error-handling',
             ),
           ],
         ),

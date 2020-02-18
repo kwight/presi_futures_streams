@@ -23,8 +23,8 @@ class Futures2 extends StatelessWidget {
         Footnotes(
           notes: [
             Footnote(
-              text: 'Flutter installation',
-              url: 'https://flutter.dev/docs/get-started/install',
+              text: 'Dart Futures - Flutter in Focus',
+              url: 'https://www.youtube.com/watch?v=OTS-ap9_aXc',
             ),
           ],
         ),

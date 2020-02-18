@@ -3,7 +3,7 @@ import '../widgets/footnote.dart';
 import '../widgets/footnotes.dart';
 import '../widgets/slide.dart';
 
-class AppState extends StatelessWidget {
+class StreamBuilders extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Slide(
@@ -22,15 +22,15 @@ class AppState extends StatelessWidget {
         Footnotes(
           notes: [
             Footnote(
-              text: 'Flutter state management',
+              text: 'StreamBuilder class',
               url:
-                  'https://flutter.dev/docs/development/data-and-backend/state-mgmt',
+                  'https://api.flutter.dev/flutter/widgets/StreamBuilder-class.html',
             ),
           ],
         ),
       ],
-      leftRoute: '/10',
-      rightRoute: '/12',
+      leftRoute: '/11',
+      rightRoute: '/13',
     );
   }
 }

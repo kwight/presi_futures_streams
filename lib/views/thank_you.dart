@@ -35,8 +35,8 @@ class ThankYou extends StatelessWidget {
           ],
         ),
       ],
-      leftRoute: '/13',
-      rightRoute: '/14',
+      leftRoute: '/14',
+      rightRoute: '/',
       includeMasthead: false,
     );
   }

@@ -23,8 +23,12 @@ class AsyncAwait extends StatelessWidget {
         Footnotes(
           notes: [
             Footnote(
-              text: 'Fuchsia',
-              url: 'https://fuchsia.dev/',
+              text: 'Async and Await Codelab',
+              url: 'https://dart.dev/codelabs/async-await',
+            ),
+            Footnote(
+              text: 'Async/Await - Flutter in Focus',
+              url: 'https://www.youtube.com/watch?v=SmTCmDMi4BY',
             ),
           ],
         ),

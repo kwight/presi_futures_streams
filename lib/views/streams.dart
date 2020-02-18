@@ -3,7 +3,7 @@ import '../widgets/footnote.dart';
 import '../widgets/slide.dart';
 import '../widgets/footnotes.dart';
 
-class FlutterFirebase extends StatelessWidget {
+class Streams extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Slide(
@@ -23,15 +23,14 @@ class FlutterFirebase extends StatelessWidget {
         Footnotes(
           notes: [
             Footnote(
-              text: 'FlutterFire plugins',
-              url:
-                  'https://firebaseopensource.com/projects/firebaseextended/flutterfire/',
+              text: 'Dart Tutorials: Streams',
+              url: 'https://dart.dev/tutorials/language/streams',
             ),
           ],
         ),
       ],
-      leftRoute: '/11',
-      rightRoute: '/13',
+      leftRoute: '/10',
+      rightRoute: '/12',
     );
   }
 }

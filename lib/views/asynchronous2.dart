@@ -22,8 +22,9 @@ class Asynchronous2 extends StatelessWidget {
         Footnotes(
           notes: [
             Footnote(
-              text: 'Flutter',
-              url: 'https://flutter.dev',
+              text: 'Futures and Streams',
+              url:
+                  'https://dart.dev/guides/language/language-tour#handling-futures',
             ),
           ],
         ),

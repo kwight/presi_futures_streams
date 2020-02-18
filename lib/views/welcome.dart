@@ -73,7 +73,7 @@ class Welcome extends StatelessWidget {
           ],
         ),
       ],
-      leftRoute: '/',
+      leftRoute: '/15',
       rightRoute: '/1',
       includeMasthead: false,
     );

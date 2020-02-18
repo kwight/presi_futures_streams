@@ -24,9 +24,8 @@ class Futures extends StatelessWidget {
         Footnotes(
           notes: [
             Footnote(
-              text: 'Library visibility',
-              url:
-                  'https://dart.dev/guides/language/language-tour#libraries-and-visibility',
+              text: 'Dart Futures - Flutter in Focus',
+              url: 'https://www.youtube.com/watch?v=OTS-ap9_aXc',
             ),
           ],
         ),
