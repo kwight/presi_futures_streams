@@ -3,19 +3,18 @@ import '../widgets/slide.dart';
 import '../widgets/footnotes.dart';
 import '../widgets/footnote.dart';
 
-class DartLang extends StatelessWidget {
+class EventLoop2 extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Slide(
-      heading: 'Dart language features',
+      heading: 'The Event Loop',
       body: <Widget>[
-        Column(
-          crossAxisAlignment: CrossAxisAlignment.start,
-          children: <Widget>[
-            Text('• Isolates (multi-threading)'),
-            Text('• Futures (Promises)'),
-            Text('• first-class functions, lexical scope'),
-          ],
+        Container(
+          child: Image.asset(
+            'images/brogdon_event_loop.jpg',
+            fit: BoxFit.contain,
+            height: 400,
+          ),
         ),
         Footnotes(
           notes: [

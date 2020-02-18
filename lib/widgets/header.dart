@@ -14,11 +14,11 @@ class Header extends StatelessWidget {
         mainAxisAlignment: MainAxisAlignment.spaceBetween,
         children: <Widget>[
           Text(
-            'Flutter ❤️ Firebase',
+            'Futures and Streams',
             style: CupertinoTheme.of(context).textTheme.navTitleTextStyle,
           ),
           Text(
-            'November 27, 2019',
+            'February 18, 2020',
             style: CupertinoTheme.of(context).textTheme.navTitleTextStyle,
           ),
         ],

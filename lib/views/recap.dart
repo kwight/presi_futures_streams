@@ -2,7 +2,7 @@ import 'package:flutter/cupertino.dart';
 import '../widgets/slide.dart';
 import 'dart:html' as html;
 
-class ThankYou extends StatelessWidget {
+class Recap extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Slide(
@@ -35,8 +35,8 @@ class ThankYou extends StatelessWidget {
           ],
         ),
       ],
-      leftRoute: '/13',
-      rightRoute: '/14',
+      leftRoute: '/12',
+      rightRoute: '/13',
       includeMasthead: false,
     );
   }

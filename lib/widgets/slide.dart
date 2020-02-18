@@ -4,6 +4,14 @@ import '../widgets/footer.dart';
 import '../widgets/header.dart';
 
 class Slide extends StatelessWidget {
+  final List<Widget> _body;
+  final MainAxisAlignment _contentAlignment;
+  final FocusNode _focusNode = FocusNode();
+  final String _heading;
+  final bool _includeMasthead;
+  final String _leftRoute;
+  final String _rightRoute;
+
   Slide({
     Key key,
     @required List<Widget> body,
@@ -19,14 +27,6 @@ class Slide extends StatelessWidget {
         _leftRoute = leftRoute,
         _rightRoute = rightRoute,
         super(key: key);
-
-  final List<Widget> _body;
-  final MainAxisAlignment _contentAlignment;
-  final FocusNode _focusNode = FocusNode();
-  final String _heading;
-  final bool _includeMasthead;
-  final String _leftRoute;
-  final String _rightRoute;
 
   @override
   Widget build(BuildContext context) {

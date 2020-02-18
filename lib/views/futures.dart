@@ -3,19 +3,22 @@ import '../widgets/footnote.dart';
 import '../widgets/slide.dart';
 import '../widgets/footnotes.dart';
 
-class DartLang2 extends StatelessWidget {
+class Futures extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Slide(
-      heading: 'Dart language features',
+      heading: 'Futures',
       body: <Widget>[
+        Text(
+            'A Future represents a value or error that will be determined in the future.'),
         Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: <Widget>[
-            Text('• async/await'),
-            Text('• arrow functions'),
-            Text('• spread and cascade operators'),
-            Text('• heads up: libraries and visibility'),
+            Text('• used often for API calls'),
+            Text(
+                '• allow us to use the Event Loop instead of blocking execution'),
+            Text(
+                '• we can use callbacks to execute code once the Future completes'),
           ],
         ),
         Footnotes(
@@ -28,8 +31,8 @@ class DartLang2 extends StatelessWidget {
           ],
         ),
       ],
-      leftRoute: '/4',
-      rightRoute: '/6',
+      leftRoute: '/5',
+      rightRoute: '/7',
     );
   }
 }

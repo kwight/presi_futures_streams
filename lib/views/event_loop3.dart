@@ -3,20 +3,22 @@ import '../widgets/slide.dart';
 import '../widgets/footnote.dart';
 import '../widgets/footnotes.dart';
 
-class WorkingWithFlutter5 extends StatelessWidget {
+class EventLoop3 extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Slide(
-      heading: 'Working with Flutter',
+      heading: 'The Event Loop',
       body: <Widget>[
+        Text(
+            'Understanding the execution order of Dart code is important to predict\nexecution and avoid confusion. This is the general sequence and rules:'),
         Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: <Widget>[
-            Text('• package system at pub.dev'),
-            Text('• routing is based on stacks (`pop`, `push`)'),
-            Text('• accessibility and internationalization'),
-            Text('• testing (unit, widget, integration)'),
-            Text('• linting (`dartfmt`)'),
+            Text('• execute all of `main()`'),
+            Text('• the Event Loop processes the Microtask Queue until empty'),
+            Text('• the Event Loop processes the Events Queue until empty'),
+            Text('• new microtasks take priority over the Events Queue'),
+            Text('• individual operations (functions) cannot be interrupted'),
           ],
         ),
         Footnotes(
@@ -33,8 +35,8 @@ class WorkingWithFlutter5 extends StatelessWidget {
           ],
         ),
       ],
-      leftRoute: '/9',
-      rightRoute: '/11',
+      leftRoute: '/4',
+      rightRoute: '/6',
     );
   }
 }

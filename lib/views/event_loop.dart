@@ -3,21 +3,23 @@ import '../widgets/footnote.dart';
 import '../widgets/footnotes.dart';
 import '../widgets/slide.dart';
 
-class DartCompilers extends StatelessWidget {
+class EventLoop extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Slide(
-      heading: 'Dart Compilers',
+      heading: 'The Event Loop',
       body: <Widget>[
         Text(
-            'Dart has two types of mobile and desktop compilers: AOT and JIT.'),
+            'The Event Loop process all events from the Event Queue, one at a time, until finished.'),
         Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: <Widget>[
             Text(
-                '• AOT: Ahead-of-time (for native machine code in production)'),
+                '• Dart is single-threaded, so it uses the Event Queue to sequence events'),
             Text(
-                '• JIT: Just-in-time (stateful hot reload during development)'),
+                '• the Event Loop processes the queue on a "first in, first out" basis'),
+            Text(
+                '• side note: there is also a Microtask Queue with higher priority than the Event Queue'),
           ],
         ),
         Footnotes(

@@ -22,7 +22,7 @@ class Welcome extends StatelessWidget {
               ),
             ),
             Text(
-              'Flutter ❤️ Firebase',
+              'Futures and Streams',
               style: CupertinoTheme.of(context)
                   .textTheme
                   .navLargeTitleTextStyle
@@ -36,14 +36,14 @@ class Welcome extends StatelessWidget {
         Column(
           children: <Widget>[
             Text(
-              'November 27, 2019',
+              'February 18, 2020',
               style: TextStyle(
                 fontStyle: FontStyle.italic,
                 fontSize: 22,
                 height: 0.8,
               ),
             ),
-            Text('Google Developers Group - Cloud Vancouver'),
+            Text('Flutter Vancouver Meetup Group'),
           ],
         ),
         Column(
@@ -56,7 +56,7 @@ class Welcome extends StatelessWidget {
                 height: 0.8,
               ),
             ),
-            Text('Mobify'),
+            Text('TTT Studios'),
           ],
         ),
         Column(

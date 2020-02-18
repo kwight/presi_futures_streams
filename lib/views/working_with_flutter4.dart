@@ -7,16 +7,17 @@ class WorkingWithFlutter4 extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Slide(
-      heading: 'Working with Flutter',
+      heading: 'FutureBuilder',
       body: <Widget>[
+        Text(
+            'FutureBuilder is a Flutter widget that builds widgets based on the result of a given Future.'),
         Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: <Widget>[
-            Text('• Material and Cupertino design systems'),
-            Text('• Flexbox-y layout'),
-            Text('• theming'),
-            Text('• animations'),
-            Text('• "pixel-perfect" control'),
+            Text('• takes a Future'),
+            Text('• takes a builder function that returns a widget'),
+            Text('• can be used in stateless widgets'),
+            Text('• remember to check for `.hasData`!'),
           ],
         ),
         Footnotes(

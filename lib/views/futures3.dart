@@ -3,28 +3,27 @@ import '../widgets/slide.dart';
 import '../widgets/footnote.dart';
 import '../widgets/footnotes.dart';
 
-class WorkingWithFlutter3 extends StatelessWidget {
+class Futures3 extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Slide(
-      heading: 'Working with Flutter',
+      heading: 'Futures',
       body: <Widget>[
         Text(
-            'Thanks to Dart, Flutter compiles to native code for many platforms.'),
+            'We have a collection of callbacks that can be used to\nprocess the result of our Future.'),
         Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: <Widget>[
-            Text('• CLI (`dart2native`)'),
-            Text('• Fuchsia'),
-            Text('• Raspberry Pi'),
-            Text('• IoT, Android wearables, ...'),
+            Text('• `then()`'),
+            Text('• `catchError`'),
+            Text('• `whenComplete`'),
           ],
         ),
         Footnotes(
           notes: [
             Footnote(
-              text: 'Fuchsia',
-              url: 'https://fuchsia.dev/',
+              text: 'Desktop progress',
+              url: 'https://github.com/flutter/flutter/wiki/Desktop-shells',
             ),
           ],
         ),
