@@ -11,7 +11,7 @@ class EventLoop2 extends StatelessWidget {
       body: <Widget>[
         Container(
           child: Image.asset(
-            'images/brogdon_event_loop.jpg',
+            'web/images/brogdon_event_loop.jpg',
             fit: BoxFit.contain,
             height: 400,
           ),
