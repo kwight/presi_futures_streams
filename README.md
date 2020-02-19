@@ -5,3 +5,5 @@ Async programming is integral to Dart and Flutter, but Futures and Streams can b
 We'll be kicking off our first meetup of the year at [TTT Studios](https://ttt.studio/), who have generously donated our space for the evening – thanks! <3
 
 This Flutter for Web app is available at https://kwight-futures-streams-slides.web.app (use arrow keys to navigate, footnote links are clickable).
+
+Demos were done with code from this [Dart repo](https://github.com/kwight/presi_futures_streams_scratch) and this [Flutter repo](https://github.com/kwight/presi_futures_streams_flutter).
